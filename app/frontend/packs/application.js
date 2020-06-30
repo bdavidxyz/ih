@@ -3,12 +3,12 @@ require("turbolinks").start()
 // require("@rails/activestorage").start()
 // require("channels")
 
-// import './bootstrap_custom'
-import '../stylesheets/application'
+import './bootstrap_custom'
+// import '../stylesheets/application'
+// import 'bootstrap/dist/js/bootstrap';
 
 // let $ = require('jquery')
 import $ from 'jquery'
-import 'bootstrap/dist/js/bootstrap';
 
 $(document).on('turbolinks:load', function() {
   console.log(`jQuery version is ${$.fn.jquery}`)
